@@ -1,0 +1,102 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="org.stn.HomeActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:background="#DA2028"
+        android:gravity="center"
+        android:paddingBottom="2sp"
+        android:paddingLeft="2sp"
+        android:paddingTop="2sp" >
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:gravity="bottom|right"
+            android:padding="3dip"
+            android:text="@string/txtSaldo"
+            android:textColor="#ffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textHomeSaldo"
+            android:layout_column="1"
+            android:layout_gravity="bottom"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="@string/txtSaldo"
+            android:textColor="#ffff"
+            android:textSize="50sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:background="#023E88"
+        android:gravity="center"
+        android:paddingTop="2sp" >
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:gravity="bottom|right"
+            android:padding="3dip"
+            android:text="@string/txtKas"
+            android:textColor="#ffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textHomeKas"
+            android:layout_column="1"
+            android:layout_gravity="bottom"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="@string/txtKas"
+            android:textColor="#ffff"
+            android:textSize="50sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:background="#FFCB04"
+        android:gravity="center"
+        android:paddingTop="2sp" >
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:gravity="bottom|right"
+            android:padding="3dip"
+            android:text="@string/txtPiutang"
+            android:textColor="#ffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textHomePiutang"
+            android:layout_column="1"
+            android:layout_gravity="bottom"
+            android:gravity="left"
+            android:padding="3dip"
+            android:text="@string/txtPiutang"
+            android:textColor="#ffff"
+            android:textSize="50sp" />
+    </TableRow>
+
+</TableLayout>

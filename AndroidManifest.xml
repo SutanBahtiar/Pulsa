@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.stn.pulsa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14"
+        tools:ignore="OldTargetApi" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".HomeActivity" -->
+        <!-- android:label="@string/title_activity_home" -->
+        <!-- android:screenOrientation="portrait" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PembelianActivity" -->
+        <!-- android:label="@string/title_activity_pembelian" /> -->
+        <!-- <activity -->
+        <!-- android:name=".MasterActivity" -->
+        <!-- android:label="@string/title_activity_master" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PembelianInputActivity" -->
+        <!-- android:label="@string/title_activity_pembelian_input" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".MasterInputActivity" -->
+        <!-- android:label="@string/title_activity_master_input" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".MasterDaftarActivity" -->
+        <!-- android:label="@string/title_activity_master_daftar" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".MasterUpdateActivity" -->
+        <!-- android:label="@string/title_activity_master_update" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PembelianDaftarActivity" -->
+        <!-- android:label="@string/title_activity_pembelian_daftar" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PembelianUpdateActivity" -->
+        <!-- android:label="@string/title_activity_pembelian_update" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PenjualanActivity" -->
+        <!-- android:label="@string/title_activity_penjualan" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PenjualanDaftarActivity" -->
+        <!-- android:label="@string/title_activity_penjualan_daftar" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PenjualanInputActivity" -->
+        <!-- android:label="@string/title_activity_penjualan_input" -->
+        <!-- android:screenOrientation="portrait" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".SettingsInputActivity" -->
+        <!-- android:label="@string/title_activity_settings" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".SettingsDaftarActivity" -->
+        <!-- android:label="@string/title_activity_settings_daftar" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".KasActivity" -->
+        <!-- android:label="@string/title_activity_kas" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PenjualanUpdateActivity" -->
+        <!-- android:label="@string/title_activity_penjualan_update" -->
+        <!-- android:screenOrientation="portrait" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PiutangDaftarActivity" -->
+        <!-- android:label="@string/title_activity_piutang" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".KasInputActivity" -->
+        <!-- android:label="@string/title_activity_kas_input" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

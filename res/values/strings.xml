@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pulsa</string>
+    <string name="txtSplash">pulsa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtSaldo">Saldo</string>
+    <string name="txtKas">Kas</string>
+    <string name="txtPiutang">Piutang</string>
+    <string name="hintSaldo">Saldo</string>
+    <string name="txtPembelianHarga">Harga</string>
+
+    <!-- menu -->
+    <string name="menuPenjualan">Penjualan</string>
+    <string name="menuPembelian">Pembelian</string>
+    <string name="menuMaster">Daftar Harga</string>
+    <string name="menuSettings">Saldo Awal</string>
+    <string name="menuHome">Home</string>
+    <string name="menuMasterInput">Input Harga</string>
+    <string name="menuMasterDaftar">Daftar Harga</string>
+    <string name="menuPembelianDaftar">Daftar Pembelian</string>
+    <string name="menuPembelianInput">Input Pembelian</string>
+    <string name="menuPenjualanDaftar">Daftar Penjualan</string>
+    <string name="menuPenjualanInput">Input Penjualan</string>
+
+    <!-- title -->
+    <string name="title_activity_home">Pulsa</string>
+
+    <!-- title pembelian -->
+    <string name="title_activity_pembelian">Pembelian</string>
+    <string name="title_activity_pembelian_input">Input Pembelian</string>
+    <string name="title_activity_pembelian_daftar">Daftar Pembelian</string>
+    <string name="title_activity_pembelian_update">Update Pembelian</string>
+
+    <!-- title master -->
+    <string name="title_activity_master">Daftar Harga</string>
+    <string name="title_activity_master_input">Input Harga</string>
+    <string name="title_activity_master_daftar">Daftar Harga</string>
+    <string name="title_activity_master_update">Update Harga</string>
+
+    <!-- hint master -->
+    <string name="hintMasterId">Id</string>
+    <string name="hintMasterNama">Kode</string>
+    <string name="hintMasterHargaBeli">Harga Beli</string>
+    <string name="hintMasterHargaJual">Harga Jual</string>
+
+    <!-- hint penjualan -->
+    <string name="title_activity_penjualan">Penjualan</string>
+    <string name="title_activity_penjualan_daftar">Daftar Penjualan</string>
+    <string name="title_activity_penjualan_input">Input Penjualan</string>
+
+    <!-- hint pembelian -->
+    <string name="hintPembelianTanggal">Tanggal</string>
+    <string name="hintPembelianHarga">Saldo</string>
+    <string name="hintPembelianKas">Kas</string>
+
+    <!-- hint penjualan -->
+    <string name="hintPenjualanTanggal">Tanggal</string>
+    <string name="hintPenjualanNama">Nama</string>
+    <string name="hintPenjualanKode">Kode</string>
+    <string name="hintPenjualanHargaBeli">Harga Beli</string>
+    <string name="hintPenjualanHargaJual">Harga Jual</string>
+    <string name="switchPenjualanLunas"></string>
+
+    <!-- hint settings -->
+    <string name="hintSettingsSaldo">Saldo</string>
+    <string name="hintSettingsPiutang">Piutang</string>
+    <string name="hintFilter">Filter&#8230;</string>
+
+    <!-- button -->
+    <string name="buttonOK">OK</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="title_activity_settings">Saldo Awal</string>
+    <string name="title_activity_settings_daftar">Saldo Awal</string>
+    <string name="title_activity_saldo">Saldo</string>
+    <string name="hintMargin">Margin</string>
+    <string name="title_activity_kas">Kas</string>
+    <string name="txtPokok">Pokok</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="title_activity_penjualan_update">Update Penjualan</string>
+    <string name="title_activity_piutang">Daftar Piutang</string>
+    <string name="title_activity_kas_input">Input Kas</string>
+    <string name="title_activity_main_activity">Pulsa</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="color_white">#ffff</string>
+    <string name="hintTlp">No. Telepon</string>
+
+</resources>

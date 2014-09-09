@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.stn.pulsa.PenjualanInputActivity" >
+
+    <item
+        android:id="@+id/menuPenjualanDaftar"
+        android:title="@string/menuPenjualanDaftar">
+    </item>
+    <item
+        android:id="@+id/menuHome"
+        android:title="@string/menuHome">
+    </item>
+
+</menu>

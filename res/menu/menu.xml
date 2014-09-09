@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.stn.MenuActivity" >
+
+    <item
+        android:id="@+id/menuPembelian"
+        android:title="@string/menuPembelian">
+    </item>
+    <item
+        android:id="@+id/menuPenjualan"
+        android:title="@string/menuPenjualan">
+    </item>
+    <item
+        android:id="@+id/menuMaster"
+        android:title="@string/menuMaster">
+    </item>
+    <item
+        android:id="@+id/menuSettings"
+        android:title="@string/menuSettings">
+    </item>
+
+</menu>
